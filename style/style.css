@@ -8,6 +8,13 @@
     list-style: none;
     box-sizing: 0;
 }
+body {
+    height: 100vh;
+}
+img {
+    height : 200px;
+    width: auto;
+}
 .button {
     padding: 10px 20px;
     border-radius: 50px;
@@ -23,4 +30,27 @@
     border: 1px solid var(--color2);
     background:var(--color2); 
     color: var(--color1);
+}
+.txt {
+    margin: 0 5%;
+}
+/* *********************** RUN *********************** */
+.run {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+/* *********************** MAGNA *********************** */
+.magna {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+/* *********************** TEMPUS *********************** */
+.tempus {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+/* *********************** GET *********************** */
+.get {
+    width: 40%;
+    margin: 0 auto;
 }

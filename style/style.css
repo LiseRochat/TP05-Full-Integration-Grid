@@ -1,6 +1,7 @@
 :root {
     --color1 : rgb(240, 240, 240);
-    --color2 : rgb(176, 176, 176);
+    --color2 : rgb(206, 206, 206);
+    --color3: gray;
 }
 * {
     margin: 0;
@@ -12,17 +13,22 @@ body {
     height: 100vh;
 }
 img {
-    height : 200px;
-    width: auto;
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}
+p {
+    color: var(--color3);
 }
 .button {
+    width: 30%;
     padding: 10px 20px;
     border-radius: 50px;
     border: 1px solid var(--color2);
     background:var(--color1); 
     cursor: pointer;
     text-transform: uppercase;
-    margin: 20px 0;
+    margin: 40px 0;
     font-weight:500;
     letter-spacing: 0.1em;
 }
@@ -31,18 +37,31 @@ img {
     background:var(--color2); 
     color: var(--color1);
 }
+
 .txt {
     margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 2em;
 }
 /* *********************** RUN *********************** */
 .run {
     display: grid;
     grid-template-columns: 50% 50%;
 }
+.txt h1 {
+    font-size: 2em;
+    margin-bottom: 3%;
+}
 /* *********************** MAGNA *********************** */
 .magna {
     display: grid;
     grid-template-columns: 40% 60%;
+}
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 3%;
 }
 /* *********************** TEMPUS *********************** */
 .tempus {
@@ -53,4 +72,48 @@ img {
 .get {
     width: 40%;
     margin: 0 auto;
+}
+.get h2 {
+    text-align: center;
+}
+label, 
+input {
+    display: block;
+}
+label {
+    text-align: center;
+}
+input {
+    height: 30px;
+}
+input,
+textarea {
+    border-radius: 5px;
+    border: 1px solid var(--color2);
+    width: 100%;
+}
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "in1 in2"
+        "txt txt"
+        "sbt sbt";
+}
+.nameForm {
+    grid-area: in1;
+}
+.emailForm {
+    grid-area: in2;
+}
+.msgForm {
+    grid-area: txt;
+}
+
+textarea {
+    resize: none;
+}
+input[type="submit"] {
+    grid-area: sbt;
 }

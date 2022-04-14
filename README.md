@@ -15,14 +15,12 @@
 6. [RoadMap](#roadmap)
 7. [Contributing](#contributing)
 8. [Contact](#contact)
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ***
 
 ### General Info
 In this project, I try to make a precise integration. And i want to change my habits with grid technology.
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ***
@@ -35,7 +33,6 @@ Here is an overview of project. </br>
 </div>
 <br>
 Go to sketch : <a href="https://github.com/LiseRochat/TP05-Full-Integration-Grid/assets/sketch" title="sketch">Sketch Project</a>
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ***
@@ -66,7 +63,6 @@ git clone https://github.com/LiseRochat/TP05-Full-Integration-Grid/
 ```
 2. Open file with you text editor 
 3. Run index.html in your navigator
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ***
@@ -81,7 +77,6 @@ Don't forget to give the project a star! Thanks again!
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ***
@@ -89,7 +84,6 @@ Don't forget to give the project a star! Thanks again!
 ### Contact 
 Rochat Lise - liserochat@live.fr </br>
 Project Link: [https://github.com/LiseRochat/TP05-Full-Integration-Grid/](https://github.com/LiseRochat/TP05-Full-Integration-Grid/)
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 

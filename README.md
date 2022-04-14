@@ -43,6 +43,8 @@ Go to sketch : <a href="https://github.com/LiseRochat/TP05-Full-Integration-Grid
 ### Technologies
 - HTML 5
 - CSS 3
+- W3C validator
+- LightHousse Chrome plugin
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ***
